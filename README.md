@@ -1,0 +1,2 @@
+# gitbash
+Git clone script
