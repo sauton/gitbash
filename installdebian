@@ -1,0 +1,9 @@
+
+
+
+
+
+
+
+Install samba:
+sudo apt-get install samba gvfs-bin gvfs-backends

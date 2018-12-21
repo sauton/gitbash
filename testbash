@@ -1,0 +1,41 @@
+#!/bin/bash
+#declare -A arr
+#arr=() 	
+
+
+#while read inputs
+#do
+#    [ "$inputs" == "done" ] && break 
+#    array=("${array[@]}" $inputs)
+#done
+
+
+for (( i=0 ; ; i++ ))
+do
+echo "Bo. nao\`? \n";
+echo "Type \" :q \" to exit";
+read wp
+case $wp in 
+	'')
+		echo 'empty'
+	;;
+	':q')
+		break ;
+	;;
+	':Q')
+		break ;
+	;;
+	*)
+		array=("${array[@]}" $wp)   
+	;;
+esac
+done
+
+echo 'kodc';
+for i in ${array[@]}; do
+	echo $i;
+done;
+
+
+
+

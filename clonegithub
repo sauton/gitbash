@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a arr;
+
 echo "You can input path when call script as argument";
 if [[ -z $1 ]]; then
             echo 'Path of git folder: Ctr+C to quit';
@@ -23,6 +23,7 @@ echo '======================Input list git to clone ====================';
 echo 'Input URL of git: Example: git@git.solazu.net:wordpress/  or https://git.solazu.net/wordpress/'
 read url_git;
 echo 'Input name of git repository : Example: educef'
+declare -a arr;
 while : ; do
     read a;
     echo "Press :q to submit";

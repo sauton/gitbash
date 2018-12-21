@@ -1,0 +1,1 @@
+test -L /*filepath*/ && /*if true do some thing*/
